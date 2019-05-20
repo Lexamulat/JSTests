@@ -1,1 +1,6 @@
 language: nodejs
+install:
+- npm install mocha -g
+- npm install
+script:
+- npm test
