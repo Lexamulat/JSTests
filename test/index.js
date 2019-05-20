@@ -6,7 +6,7 @@ console.log('call2', simple())
 describe('#simple()', function() {
 
       it('should return 0', function() {
-        expect(simple()).to.equal('sml21')
+        expect(simple()).to.equal('sml221')
       })
     
   })
