@@ -3,7 +3,7 @@ const closeSymb = ')';
 
 
 function simple() {
-    return 'sml'
+    return 'sml2'
 }
 
 function compile(str) {
