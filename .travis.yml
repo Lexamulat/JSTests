@@ -1,6 +1,7 @@
-language: nodejs
+language: node_js
+node_js:
+  - "0.10"
 install:
-- npm install mocha -g
-- npm install
+  - npm install mocha -g
 script:
-- npm test
+ - npm test
