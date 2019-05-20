@@ -1,0 +1,22 @@
+{
+  "name": "jstests",
+  "version": "1.0.0",
+  "description": "JSTests ц",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexamulat/JSTests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lexamulat/JSTests/issues"
+  },
+  "homepage": "https://github.com/Lexamulat/JSTests#readme",
+  "dependencies": {
+    "mocha": "^6.1.4"
+  }
+}
