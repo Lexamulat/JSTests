@@ -2,7 +2,9 @@ language: node_js
 node_js:  
   - "node"
 install:
-  - npm install mocha -g
+  - npm install mocha
+  - npm install chai 
+  - npm install mockery
   - npm i
 script:
   - npm install
