@@ -5,6 +5,6 @@ install:
   - npm install mocha
   - npm install chai 
   - npm install mockery
-  - npm i
+  - npm install nyc
 script:
   - npm test

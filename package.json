@@ -4,7 +4,7 @@
   "description": "JSTests ц",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/**/*.js"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Lexamulat/JSTests#readme",
   "dependencies": {
     "mocha": "^6.1.4",
-    "mockery": "^2.1.0"
+    "mockery": "^2.1.0",
+    "nyc": "^14.1.1"
   },
   "devDependencies": {
     "chai": "^4.2.0"

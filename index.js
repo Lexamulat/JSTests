@@ -25,6 +25,7 @@ function parse(str) {
 }
 
 function separateBlock(str) {
+
     let openCounter = 0;
     let closeCounter = 0;
     let obj = {};
@@ -58,13 +59,14 @@ function calc(str) {
 let str = '1+(4+9)*-(6+(-1))';
 // let str='(6+(-1))';
 
-console.log("eval", eval(str))
-try {
-    console.log("compile", compile(str))
-} catch (err) {
-    console.log("catch smth", err)
-}
+// console.log("eval", eval(str))
+// try {
+//     console.log("compile", compile(str))
+// } catch (err) {
+//     console.log("catch smth", err)
+// }
 
 module.exports = {
-    simple
+    simple,
+    compile
 }
