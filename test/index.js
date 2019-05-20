@@ -1,3 +1,3 @@
 var {simple} = require('../index');
 
-console.log('call', simple())
+console.log('call2', simple())
